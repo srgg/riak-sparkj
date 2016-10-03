@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        String bucket = System.getenv("kvbucket");
+        String bucket = System.getProperty("kvbucket");
         if (bucket == null) {
             bucket = "test";
         }

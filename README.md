@@ -14,6 +14,7 @@ sed -i -e 's/gettyimages\/spark/gettyimages\/spark\:1.6.2-hadoop-2.6/g' ./docker
 
 ** TODO NEED TO ADD how to run riak from docker **
 
+You could run example as follows:
 ```
 mvn package exec:java -Dspark.master=<spark-master-url> -Dspark.riak.connection.host=<riak-host-and-port>
 ```
